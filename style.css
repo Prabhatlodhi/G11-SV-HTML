@@ -8,11 +8,11 @@
   border: 1px solid red;
 }
 
-.parent-container { 
-  background-color: aqua; 
-  border: 5px solid blue; 
+.parent-container {
+  background-color: aqua;
+  border: 5px solid blue;
   display: flex;
-
+  height: 500px;
 }
 
 .child-1 {
@@ -20,7 +20,8 @@
   width: 33%;
   height: 200px;
   /* flex-grow: 20; */
-  flex-shrink: 20;
+  /* flex-shrink: 20; */
+  align-self: flex-end;
 }
 
 .child-2 {
@@ -28,7 +29,8 @@
   width: 33%;
   height: 200px;
   /* flex-grow: 10; */
-  flex-shrink: 10;
+  /* flex-shrink: 10; */
+  align-self: flex-end;
 }
 
 .child-3 {
@@ -36,8 +38,15 @@
   width: 33%;
   height: 200px;
   /* flex-grow: 80; */
-  flex-shrink: 80;
+  /* flex-shrink: 80; */
+  align-self: center;
 }
+
+.videoDiv{
+  border: 5px solid red;
+  text-align: center;
+}
+
 
 /* .child-5{
   background-color: rgb(219, 28, 233);
