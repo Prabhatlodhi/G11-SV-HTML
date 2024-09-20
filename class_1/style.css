@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.check {
+  border: 1px solid red;
+}
+
+.parent-container {
+  background-color: aqua;
+  border: 5px solid blue;
+  display: flex;
+  height: 400px;
+}
+
+.child-1 {
+  background-color: red;
+  width: 380px;
+  height: 200px;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
+  align-self: flex-end;
+}
+
+.child-2 {
+  background-color: yellow;
+  width: 380px;
+  height: 200px;
+  /* flex-grow: 2; */
+  /* flex-shrink: 2; */
+  align-self: center;
+}
+
+.child-3 {
+  background-color: bisque;
+  width: 380px;
+  height: 200px;
+  /* flex-grow: 3; */
+  /* flex-shrink: 3;  */
+}
